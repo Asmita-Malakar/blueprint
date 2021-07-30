@@ -1,1 +1,164 @@
-/* No CSS *//*# sourceMappingURL=media.css.map */
+@media (min-width: 0) {
+  .card-deck .card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (min-width: 576px) {
+  .card-deck .card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (min-width: 768px) {
+  .card-deck .card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100% - 30px);
+            flex: 0 0 calc(100% - 30px);
+  }
+}
+
+@media (min-width: 992px) {
+  .card-deck .card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(25% - 30px);
+            flex: 0 0 calc(25% - 30px);
+  }
+}
+
+@media (min-width: 1600px) {
+  .card-deck .card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(20% - 30px);
+            flex: 0 0 calc(20% - 30px);
+  }
+}
+
+@media (max-width: 700px) {
+  .modal-body .img-fluid {
+    float: none;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  #page {
+    margin: 20px 20px;
+  }
+  #page #ourmission .textbox {
+    text-align: center;
+  }
+  #page #ourmission .research-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  #page #ourmission .blueprint {
+    margin-top: 60px;
+    margin-bottom: auto;
+  }
+  #page #ourmission .magnify {
+    margin-top: auto;
+  }
+  #page #partners img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  #get-involved .write-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  #get-involved .stemchats-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  #get-involved .scholars-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  #get-involved .opp-title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  #get-involved .opp-text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* start of medium tablet styles */
+  #page {
+    margin: 40px 40px;
+  }
+  #page #ourmission .blueprint {
+    margin-top: 60px;
+    margin-bottom: auto;
+  }
+  #page #ourmission .magnify {
+    margin-top: auto;
+  }
+  #page #support .handshake {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #page #support .icon {
+    text-align: center;
+    margin: auto;
+  }
+  #get-involved .images {
+    text-align: center;
+  }
+  #get-involved .textbox {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #get-involved .title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  #get-involved .btn {
+    margin: 0 auto;
+    display: block;
+  }
+  #get-involved .card-body {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  /* start of large tablet styles */
+  .write-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  #get-involved .card-body {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=media.css.map */

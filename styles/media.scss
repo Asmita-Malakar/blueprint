@@ -1,0 +1,184 @@
+// Cards responsiveness #get-involved
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1600px
+) !default;
+
+$grid-gutter-width: 30px !default;
+
+// number of cards per line for each breakpoint
+$cards-per-line: (
+    xs: 1,
+    sm: 1,
+    md: 1,
+    lg: 4,
+    xl: 5
+);
+
+@each $name, $breakpoint in $grid-breakpoints {
+    @media (min-width: $breakpoint) {
+        .card-deck .card {
+            flex: 0 0 calc(#{100/map-get($cards-per-line, $name)}% - #{$grid-gutter-width});
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .modal-body .img-fluid {
+        float: none;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /* start of phone styles */
+
+    #page{
+        margin: 20px 20px;
+
+        #ourmission{
+
+            .textbox{
+                text-align: center;
+            }
+
+            .research-img{
+                width:100%;
+                max-width: 500px;
+                height:auto;
+            }
+
+            .blueprint{
+                margin-top:60px;
+                margin-bottom: auto;
+            }
+
+            .magnify{
+                margin-top:auto;
+            }
+        }
+
+        #partners{
+
+            img{
+                width:100%;
+                max-width:600px;
+                height:auto;
+
+            }
+        }
+    }
+
+    #get-involved{
+        .write-img{
+            width:100%;
+            max-width:600px;
+            height:auto;
+        }
+
+        .stemchats-img{
+            width:100%;
+            max-width:300px;
+            height:auto;
+        }
+
+        .scholars-img{
+            width:100%;
+            max-width:400px;
+            height:auto;
+        }
+
+        .opp-title{
+            justify-content:center;
+            text-align:center;
+        }
+        .opp-text{
+            justify-content:center;
+            text-align:center;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    /* start of medium tablet styles */
+    #page{
+        margin: 40px 40px;
+
+        #ourmission{
+
+            .blueprint{
+                margin-top:60px;
+                margin-bottom: auto;
+            }
+    
+            .magnify{
+                margin-top:auto;
+            }
+        }
+
+        #support{
+            .handshake{
+                align-items: center;
+            }
+
+            .icon{
+                text-align: center;
+                margin:auto;
+            }
+        }
+    }
+
+    #get-involved{
+        .images{
+            text-align:center;
+        }
+
+        .textbox{
+            text-align: center;
+            justify-content:center;
+        }
+
+        .title{
+            justify-content:center;
+            text-align:center;
+        }
+
+        .btn{
+            margin:0 auto;
+            display:block;
+        }
+
+        .card-body{
+            justify-content:center;
+            text-align:center;
+        }
+    }
+
+    
+}
+
+
+@media screen and (max-width: 1600px){
+    /* start of large tablet styles */
+
+    .write-img{
+        width:100%;
+        max-width:500px;
+        height:auto;
+    }
+
+    #get-involved{
+    
+        .card-body{
+            justify-content:center;
+            text-align:center;
+        }
+
+
+    }
+    
+
+}
